@@ -2,7 +2,9 @@
  * Related application types that handle
  * user related CRUD actions
  */
+export const GET_CONTACTS = 'GET_CONTACTS';
 export const ADD_CONTACT = 'ADD_CONTACT';
+export const CONTACT_ERROR = 'CONTACT_ERROR';
 export const DELETE_CONTACT = 'DELETE_CONTACT';
 export const UPDATE_CONTACT = 'UPDATE_CONTACT';
 
@@ -11,6 +13,7 @@ export const UPDATE_CONTACT = 'UPDATE_CONTACT';
  */
 export const FILTER_CONTACTS = 'FILTER_CONTACTS';
 export const CLEAR_FILTER = 'CLEAR_FILTER';
+export const CLEAR_CONTACTS = 'CLEAR_CONTACTS';
 
 /**
  * Application types related to the
